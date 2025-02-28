@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kianyaga High School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px;
+            background: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .content h2 {
+            color: #007bff;
+            font-size: 28px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .read-more:hover {
+            background-color: #0056b3;
+        }
+        .image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px;
+            }
+            .content {
+                padding-right: 0;
+                margin-bottom: 20px;
+            }
+            .image img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <h2>Who we are</h2>
+        <p>
+            Kianyaga High School, founded in 1961 in Kirinyaga County, is a respected national boys' school known for academic excellence. 
+            Its motto, <strong>"Enter to Excel, Exit to Prosper,"</strong> reflects its mission to nurture disciplined and successful individuals. 
+            The school has notable alumni, including Deputy President Rigathi Gachagua, who has actively supported its development. 
+            In 2024, he pledged Ksh100 million for infrastructure improvements. Additionally, in 2023, alumni sponsored a retreat for teachers to strategize on enhancing 
+            the school's performance. Kianyaga High continues to thrive with strong alumni support and a commitment to quality education.
+        </p>
+        <a href="#" class="read-more">Read More →</a>
+    </div>
+    <div class="image">
+        <img src="your-image-url.jpg" alt="Kianyaga High School">
+    </div>
+</div>
+
+</body>
+</html>
